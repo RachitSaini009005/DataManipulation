@@ -9,7 +9,7 @@ Employess = [
 filtered_Employess = [person for person in Employess if person['age'] >= 25]   # filtering the employees whose age is 25 or greater then 25
 
 # Sorting
-sorted_Employess = sorted(filtered_Employess, key=lambda x: x['city']) # over 
+sorted_Employess = sorted(filtered_Employess, key=lambda x: x['city']) # this line  Arranges employees based on their cities in alphabetical order using Python's sorted function and lambda.
 
 # Output
 print("Final list of Employess:")
